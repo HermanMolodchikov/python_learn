@@ -15,6 +15,7 @@ def get_sum(a, b):
 x = 3
 y = 4
 
+
 print(get_sum(1, 3))
 mySum = get_sum(10, 20)
 newSum = get_sum(mySum, y)
