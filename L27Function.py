@@ -19,6 +19,7 @@ print(get_sum2(1, 2, d=5))
 def get_sum3(*args, **kwargs):
     print(args)
 
+
 get_sum3(1, 2, 3)
 
 
