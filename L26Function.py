@@ -15,7 +15,6 @@ def get_sum(a, b):
 x = 3
 y = 4
 
-
 print(get_sum(1, 3))
 mySum = get_sum(10, 20)
 newSum = get_sum(mySum, y)
@@ -42,7 +41,6 @@ print(res)
 # square_calc(quantity)
 
 
-
 s = 'Hello world!'
 if s.find(' '):
     print(s.upper())
@@ -54,7 +52,7 @@ if ' ' in s:
 else:
     print(s.lower())
 
-#-----------------------------------
+# -----------------------------------
 
 
 s2 = input('Введите строку:')
@@ -67,6 +65,19 @@ def set_register(s):
         return s.lower()
 
 
-s3 = set_register(2)
+s3 = set_register(s2)
 
 print(s3)
+
+
+# ---------------multiplication_table------------
+
+
+def multiplication_table(column, row):
+    for i in range(1, column):
+        print(i + 1)
+        for j in range(1, row):
+            print(i * j, end="\t")
+
+
+multiplication_table(10, 4)
