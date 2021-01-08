@@ -3,7 +3,7 @@
 # l2 = list('hello')
 # l3 = list((1, 2, 3))
 # l4 = [i for i in '123456789']
-# #l5 = [i for i in 'hello world' if i not in [' '] and i != 'l']
+# l5 = [i for i in 'hello world' if i not in [' '] and i != 'l']
 # l5 = [i * 2 for i in 'hello world' if i not in ['a', 'e', 'i', 'o', 'u', ' ']]
 # l6 = list(range(5, 10, 2))
 #
